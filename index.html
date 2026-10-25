@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universix.lk — Launching Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+        body {
+            background-color: #030712;
+            background-image: radial-gradient(circle at 50% 50%, #064e3b 0%, #030712 70%);
+            color: #ffffff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            animation: float 4s ease-in-out infinite;
+        }
+        .logo-img {
+            max-width: 450px;
+            width: 80%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #9ca3af;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+            100% { transform: translateY(0px); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Oya gaththa image eka logo.png kiyala save karala me thanata denna -->
+        <img src="universix.lk.png"" alt="Universix.lk Logo" class="logo-img">
+        <p>Something Awesome Is Launching Soon</p>
+    </div>
+</body>
+</html>
